@@ -22,6 +22,11 @@
     "replace": {
         "silverstripe/bootstrap-forms": "*"
     },
+    "autoload": {
+        "psr-4": {
+            "UncleCheese\\BootstrapForms\\": "src/"
+        }
+    },
     "extra": {
         "expose": [
             "javascript",
